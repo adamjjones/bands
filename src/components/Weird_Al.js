@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 
-export class Weird_Al extends Component {
+class Weird_Al extends Component {
   render() {
     return (
       <div>
-        <p>This is the Weird Al page</p>
+        <h1>This is the Weird Al page</h1>
       </div>
     )
   }

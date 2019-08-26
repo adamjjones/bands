@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 
-export class Shania_Twain extends Component {
+class Shania_Twain extends Component {
   render() {
     return (
       <div>
-        <p>This is the Shania Twain page</p>
+        <h1>This is the Shania Twain page</h1>
       </div>
     )
   }
