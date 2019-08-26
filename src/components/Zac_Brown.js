@@ -1,11 +1,10 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
-import Zac_Brown from './components/Zac_Brown'
 
-class App extends Component {
+export class Zac_Brown extends Component {
   render() {
-    return <Zac_Brown />
+    return <p>This is Zac-Brown band page</p>
   }
 }
 
-export default App
+export default Zac_Brown
