@@ -5,9 +5,8 @@ import Shania_Twain from './components/Shania_Twain'
 import Weird_Al from './components/Weird_Al'
 import HomePage from './components/HomePage'
 import Images from './components/Zac-brown.jpeg'
-// import Images from './components/Zac-brown.jpeg'
-// import Images from './components/Zac-brown.jpeg'
-// import Images from '.components/Zac-brown.jpeg'
+import Imagessec from './components/Shania-Twain.png'
+import Imagethird from './components/MandatoryFun.jpg'
 
 class App extends Component {
   render() {
@@ -20,7 +19,7 @@ class App extends Component {
           <Link to="/Weird_Al"> Weird Al </Link>
         </nav>
         <Switch>
-          <Route path="/" exact component={HomePage} />
+          <Route path="/HomePage" exact component={HomePage} />
           <Route path="/Zac_Brown" exact component={Zac_Brown} />
           <Route path="/Shania_Twain" exact component={Shania_Twain} />
           <Route path="/Weird_Al" exact component={Weird_Al} />
