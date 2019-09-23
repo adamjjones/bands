@@ -10,21 +10,23 @@ import Imagethird from './MandatoryFun.jpg'
 class HomePage extends Component {
   render() {
     return (
-      <div>
+      <>
         <h1>THIS IS THE HOME PAGE</h1>
-        <img src={Images} />
-        <Link to="/Zac_Brown" className="link">
-          Zac Brown
-        </Link>
-        <img src={Imagesec} />
-        <Link to="/Shania_Twain" className="link">
-          Shania Twain
-        </Link>
-        <img src={Imagethird} />
-        <Link to="/Weird_Al" className="link">
-          Weird Al
-        </Link>
-      </div>
+        <div className="bands">
+          <Link to="/Zac_Brown" className="link">
+            <img src={Images} />
+            <p>Zac Brown Band</p>
+          </Link>
+          <Link to="/Shania_Twain" className="link">
+            <img src={Imagesec} />
+            <p>Shania Twain</p>
+          </Link>
+          <Link to="/Weird_Al" className="link">
+            <img src={Imagethird} />
+            <p>Weird_Al</p>
+          </Link>
+        </div>
+      </>
     )
   }
 }

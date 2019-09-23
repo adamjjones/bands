@@ -27,3 +27,9 @@ img {
   padding: 20px;
   border-radius: 15%;
 }
+
+.bands {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -11,20 +11,22 @@ import Imagethird from './components/MandatoryFun.jpg'
 class App extends Component {
   render() {
     return (
-      <Router>
-        <nav className="nav">
-          <Link to="/HomePage"> Home </Link>
-          <Link to="/Zac_Brown"> Zac Brown </Link>
-          <Link to="/Shania_Twain"> Shania Twain </Link>
-          <Link to="/Weird_Al"> Weird Al </Link>
-        </nav>
-        <Switch>
-          <Route path="/HomePage" exact component={HomePage} />
-          <Route path="/Zac_Brown" exact component={Zac_Brown} />
-          <Route path="/Shania_Twain" exact component={Shania_Twain} />
-          <Route path="/Weird_Al" exact component={Weird_Al} />
-        </Switch>
-      </Router>
+      <div>
+        <Router>
+          <nav className="nav">
+            <Link to="/HomePage"> Home </Link>
+            <Link to="/Zac_Brown"> Zac Brown </Link>
+            <Link to="/Shania_Twain"> Shania Twain </Link>
+            <Link to="/Weird_Al"> Weird Al </Link>
+          </nav>
+          <Switch>
+            <Route path="/HomePage" exact component={HomePage} />
+            <Route path="/Zac_Brown" exact component={Zac_Brown} />
+            <Route path="/Shania_Twain" exact component={Shania_Twain} />
+            <Route path="/Weird_Al" exact component={Weird_Al} />
+          </Switch>
+        </Router>
+      </div>
     )
   }
 }
